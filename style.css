@@ -1,0 +1,59 @@
+*{
+    /* star selector (*) selects all items in the page */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lightblue;
+    font-family: arial;
+    font-size: 14px;
+    padding: 50px;
+}
+
+h1{
+    font-size: 34px;
+    margin-bottom: 25px;
+}
+
+h2{
+    margin-bottom: 20px;
+    text-align: center;
+}
+.first{
+    /*use dot (.) to style class follow with class name */
+    color: blue;
+}
+
+p{
+    margin-bottom: 20px;
+}
+
+#your-name{
+    /* use # to style id followed with id name */
+    background-color: rgb(101, 101, 92);
+    border: 5px solid #444;
+    width: 400px;
+    padding: 25px;
+    margin-top: 30px;
+}
+
+input, button{
+    padding: 10px;
+    font-size: 16px;
+}
+
+a{
+    background-color: yellowgreen;
+}
+
+#your-name h2{
+    color: olivedrab;
+}
+
+#course-image{
+    width: 300px;
+    height: 300px;
+    /* only set width and let height be automatically calculated*/
+}
